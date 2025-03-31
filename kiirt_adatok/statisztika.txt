@@ -1,1 +1,4 @@
-A beolvasott fájlban összesen 30 versenyző szerepel.A legtöbb futamot nyert versenyző: WilliamsA legtöbb futamot teljesített versenyző: 377Az átlagos futamszám: 187.96666666666667
+A beolvasott fájlban összesen 30 versenyző szerepel.
+A legtöbb futamot nyert versenyző: Williams
+A legtöbb futamot teljesített versenyző: 377
+Az átlagos futamszám: 187.96666666666667

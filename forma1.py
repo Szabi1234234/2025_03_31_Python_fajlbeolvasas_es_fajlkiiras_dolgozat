@@ -45,7 +45,10 @@ print(f'Az átlagos futamszám: {atlag}')
 
 
 with open('./kiirt_adatok/statisztika.txt', 'w', encoding='utf-8') as celfajl:
-    celfajl.write(f'A beolvasott fájlban összesen {versenyzo_szam} versenyző szerepel.')
-    celfajl.write(f'A legtöbb futamot nyert versenyző: {zsivany}')
-    celfajl.write(f'A legtöbb futamot teljesített versenyző: {legtobb_futam}')
-    celfajl.write(f'Az átlagos futamszám: {atlag}')
+    print(f'A beolvasott fájlban összesen {versenyzo_szam} versenyző szerepel.', file=celfajl)
+    print(f'A legtöbb futamot nyert versenyző: {zsivany}', file=celfajl)
+    print(f'A legtöbb futamot teljesített versenyző: {legtobb_futam}', file=celfajl)
+    print(f'Az átlagos futamszám: {atlag}', file=celfajl)
+    # celfajl.write(f'A legtöbb futamot nyert versenyző: {zsivany}')
+    # celfajl.write(f'A legtöbb futamot teljesített versenyző: {legtobb_futam}')
+    # celfajl.write(f'Az átlagos futamszám: {atlag}')

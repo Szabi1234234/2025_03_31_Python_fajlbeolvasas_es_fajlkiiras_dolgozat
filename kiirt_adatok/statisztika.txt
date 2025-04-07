@@ -1,4 +1,4 @@
 A beolvasott fájlban összesen 30 versenyző szerepel.
-A legtöbb futamot nyert versenyző: Williams
-A legtöbb futamot teljesített versenyző: 377
+A legtöbb futamot nyert versenyző: ['Lewis Hamilton', 'Mercedes', 103, 332]
+A legtöbb futamot teljesített versenyző: ['Fernando Alonso', 'Renault', 32, 377]
 Az átlagos futamszám: 187.96666666666667

@@ -1,3 +1,4 @@
+
 """
 Olvasd be az f1.txt adatait, majd oldd meg az alábbi feladatokat!
 
@@ -32,12 +33,15 @@ print(f'{versenyzok=}')
 versenyzo_szam = len(versenyzok)
 print(f'A beolvasott fájlban összesen {versenyzo_szam} versenyző szerepel.')
 #2
-zsivany = max(versenyzok, key=lambda x: x[1])
-zsivany = zsivany[1]
+zsivany = max(versenyzok, key=lambda x: x[2])
+#zsivany = zsivany[1]
 print(f'A legtöbb futamot nyert versenyző: {zsivany}')
 #3
 legtobb_futam = max(versenyzok, key=lambda x: x[3])
-legtobb_futam = legtobb_futam[3]
+#legtobb_futam = legtobb_futam[3]
+#for versenyzo in versenyzok:
+    # if versenyzo[2] == 
+
 print(f'A legtöbb futamot teljesített versenyző: {legtobb_futam}')
 #4
 atlag = sum([x[3] for x in versenyzok]) / len(versenyzok)
